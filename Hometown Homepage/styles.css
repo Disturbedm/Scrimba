@@ -120,10 +120,15 @@ img {
 .image-txt ul {
     display: flex;
     justify-content: space-around;
-    padding: 0;
-    margin: 0;
+    align-items: center;
+    padding: 0 0;
+    margin: 0 0;
     list-style: none;
     
+}
+
+ul {
+    padding: 40px 0 ;
 }
 
 
@@ -154,6 +159,7 @@ h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 
 
