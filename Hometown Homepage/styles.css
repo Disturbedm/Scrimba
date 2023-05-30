@@ -1,54 +1,45 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-*/
-
 body {
     text-align: center;
     color: #1D3557;
     background-color: #F1FAEE;
     margin: 0;
-  }
-  
-  #wrapper {
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
-  
-  
-  h1 {
-    margin: 0;
-  }
-  
-  h3 {
-    font-size: 50px;
-    margin: 10px 0 30px 0;
+}
+
+h2,
+h3 {
+    margin: 20px 0 30px 0;
     color: white;
     text-shadow: 0 0 10px black;
+    padding: 0;
+}
 
-  }
+h2 {
+    font-size: 35px;
+}
 
-  h4 {
+h3 {
+    font-size: 50px;
+    
+}
+
+h4 {
     font-size: 30px;
-  }
+    text-align: center;
+    padding: 20px auto;
+}
 
-  img {
+img {
     width: 300px;
     height: 200px;
     margin: 0;
-    
-  }
-  
-  #hero {
+    padding: 0;
+}
+
+#hero {
     background-image: url(images/hero\ image.jpg);
     display: flex;
     flex-direction: column;
-    margin: 20px 10px 0px 10px;
+    margin: 20px 10px 10px 10px;
     height: 400px;
     background-size: cover;
     background-position: center;
@@ -56,80 +47,88 @@ body {
     color: white;
     font-size: 100px;
     text-shadow: 0px 0px 10px black;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
     overflow: hidden;
-  }
-  
-  #visit {
-    position: relative;
-    
-  }
-  
-  #hero-paragraph {
+}
+
+
+#hero-txt {
     display: flex;
     color: white;
     text-shadow: 0px 0px 10px black;
     font-size: 25px;
     margin: 0 auto;
     position: relative;
-    top: 0px;
-    justify-content: center;
-  }
+    top: -100px;
+}
 
-  .places-container {
-    width: 500px;
-  }
-  
-  .top3-container {
+.places-container {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+.top3-container {
     display: flex;
     justify-content: space-evenly;
-    padding: 60px 0;
-    margin: 0px 10px;
-    position: relative;
-    top: -47px;
+    padding: 0 0 60px 0;
+    margin: 10px 10px;
     background-color: rgba(168, 218, 220, 0.6);
     height: 1000px;
-    border-radius: 20px 20px;
-  }
-  
-  .top3-container img {
+    border-radius: 20px;
+}
+
+.top3-container img {
     width: 300px;
     border-radius: 20%;
     overflow: hidden;
-  }
-  
-  .image-txt {
+    
+    
+}
+
+.image-txt {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px 40px;
+    margin: 40px 0;
     font-size: 30px;
     font-weight: 900;
     color: white;
-    text-shadow: 0 0 10px black;  
+    text-shadow: 0 0 10px black;
+    width: 100%;
     height: 136px;
-    width: 420px;
-     
-  }
+}
 
-  li {
-    text-align: center;
-    list-style: none;
-    padding: 12px 40px;
-    font-size: 20px;
-    }
 
- .visit-ideas-txt ul li {
+
+.image-txt ul {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
     
- }
+}
 
-  .places-banner {
+
+
+
+li {
+    text-align: center;
+    padding: 30px 0px;
+    list-style: none;
+    padding: 12px 0px;
+    font-size: 20px;
+}
+
+
+
+ul {
+    padding: 0;
+}
+
+h5 {
     display: flex;
     margin: 0 10px;
     color: white;
@@ -138,5 +137,17 @@ body {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
-    border-radius: 20px 20px 0 0;
-  }
+    border-radius: 20px 20px;
+}
+
+.guide-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 0 60px 0;
+    margin: 10px 10px;
+    background-color: rgba(168, 180, 100, 0.6);
+    height: 600px;
+    border-radius: 20px;
+}
+
