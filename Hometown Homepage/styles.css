@@ -1,9 +1,11 @@
 body {
     text-align: center;
     color: #1D3557;
-    background-color: #F1FAEE;
+    background-color: #f5f5f5;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 h2,
 h3 {
@@ -13,20 +15,24 @@ h3 {
     padding: 0;
 }
 
+
 h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
+
 
 h3 {
     font-size: 50px;
     
 }
 
+
 h4 {
     font-size: 30px;
     text-align: center;
     padding: 20px auto;
 }
+
 
 img {
     width: 300px;
@@ -35,8 +41,9 @@ img {
     padding: 0;
 }
 
+
 #hero {
-    background-image: url(images/hero\ image.jpg);
+    background-image: url(images/banner2.jfif);
     display: flex;
     flex-direction: column;
     margin: 20px 10px 10px 10px;
@@ -59,8 +66,9 @@ img {
     font-size: 25px;
     margin: 0 auto;
     position: relative;
-    top: -100px;
+    top: -180px;
 }
+
 
 .places-container {
     width: 400px;
@@ -69,23 +77,31 @@ img {
 
 }
 
+
 .top3-container {
     display: flex;
     justify-content: space-evenly;
     padding: 0 0 60px 0;
     margin: 10px 10px;
     background-color: rgba(168, 218, 220, 0.6);
-    height: 1000px;
+    height: 1100px;
     border-radius: 20px;
 }
+
 
 .top3-container img {
     width: 300px;
     border-radius: 20%;
     overflow: hidden;
-    
-    
 }
+
+
+.divider {
+    border: 3px solid grey;
+    border-radius: 20%;
+
+}
+
 
 .image-txt {
     display: flex;
@@ -101,7 +117,6 @@ img {
 }
 
 
-
 .image-txt ul {
     display: flex;
     justify-content: space-around;
@@ -110,8 +125,6 @@ img {
     list-style: none;
     
 }
-
-
 
 
 li {
@@ -123,10 +136,6 @@ li {
 }
 
 
-
-ul {
-    padding: 0;
-}
 
 h5 {
     display: flex;
@@ -140,14 +149,78 @@ h5 {
     border-radius: 20px 20px;
 }
 
-.guide-container {
+.visit-ideas-txt {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding: 0 0 60px 0;
-    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.guide-banner {
+    margin-bottom: 10px;
+}
+
+
+.guide-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0 0;
     background-color: rgba(168, 180, 100, 0.6);
-    height: 600px;
+    width: 1200px;
+    height: 250px;
     border-radius: 20px;
+}
+
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
+    margin: auto 10px;
+}
+
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+}
+
+
+.guide-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0;
+}
+
+
+#london:hover {
+    content: url(images/london2.jpg);
+}
+
+
+#lake-district:hover {
+    content: url(images/lake\ district2.jpg);
+}
+
+
+#stonehenge:hover {
+    content: url(images/stonehenge2.jpg);
 }
 
