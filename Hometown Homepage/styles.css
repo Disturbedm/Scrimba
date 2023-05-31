@@ -6,7 +6,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 h2,
 h3 {
     margin: 20px 0 30px 0;
@@ -15,17 +14,13 @@ h3 {
     padding: 0;
 }
 
-
 h2 {
     font-size: 30px;
 }
 
-
 h3 {
     font-size: 50px;
-    
 }
-
 
 h4 {
     font-size: 30px;
@@ -33,21 +28,20 @@ h4 {
     padding: 20px auto;
 }
 
-
 img {
-    width: 300px;
-    height: 200px;
+    max-width: 100%; /* Added to ensure images don't exceed their container */
+    height: auto; /* Added to maintain image aspect ratio */
     margin: 0;
     padding: 0;
 }
-
 
 #hero {
     background-image: url(images/banner2.jfif);
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     margin: 20px 10px 10px 10px;
-    height: 400px;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -58,9 +52,7 @@ img {
     overflow: hidden;
 }
 
-
 #hero-txt {
-    display: flex;
     color: white;
     text-shadow: 0px 0px 10px black;
     font-size: 25px;
@@ -69,39 +61,37 @@ img {
     top: -180px;
 }
 
-
 .places-container {
     width: 400px;
-    height: 200px;
     margin: 0 auto;
-
 }
-
 
 .top3-container {
     display: flex;
+    flex-shrink: 0;
     justify-content: space-evenly;
     padding: 0 0 60px 0;
     margin: 10px 10px;
     background-color: rgba(168, 218, 220, 0.6);
-    height: 1100px;
     border-radius: 20px;
 }
 
-
 .top3-container img {
+    max-width: 100%; /* Added to ensure images don't exceed their container */
+    height: 200px;
     width: 300px;
-    border-radius: 20%;
+    border-radius: 20px;
     overflow: hidden;
 }
 
-
 .divider {
     border: 3px solid grey;
-    border-radius: 20%;
-
+    border-radius: 20px;
 }
 
+.lake-district {
+    width: 258px;
+}
 
 .image-txt {
     display: flex;
@@ -112,35 +102,28 @@ img {
     font-weight: 900;
     color: white;
     text-shadow: 0 0 10px black;
-    width: 100%;
     height: 136px;
 }
-
 
 .image-txt ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 0;
-    margin: 0 0;
+    padding: 0;
+    margin: 0;
     list-style: none;
-    
 }
 
 ul {
-    padding: 40px 0 ;
+    padding: 40px 0;
+    list-style: none; 
 }
-
 
 li {
     text-align: center;
-    padding: 30px 0px;
-    list-style: none;
-    padding: 12px 0px;
+    padding: 12px 0;
     font-size: 20px;
 }
-
-
 
 h5 {
     display: flex;
@@ -151,7 +134,7 @@ h5 {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
-    border-radius: 20px 20px;
+    border-radius: 20px;
 }
 
 .visit-ideas-txt {
@@ -159,27 +142,23 @@ h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 }
-
 
 .guide-banner {
     margin-bottom: 10px;
 }
 
-
 .guide-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0px;
-    margin: 0 0;
+    padding: 20px 0;
+    margin: 0;
     background-color: rgba(168, 180, 100, 0.6);
-    width: 1200px;
+    max-width: 1200px; /* Changed width to max-width */
     height: 250px;
     border-radius: 20px;
 }
-
 
 .avatar {
     display: flex;
@@ -191,14 +170,12 @@ h5 {
     margin: auto 10px;
 }
 
-
 .name {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px auto;
 }
-
 
 .quote {
     display: flex;
@@ -207,12 +184,11 @@ h5 {
     margin: auto auto;
 }
 
-
 .guide-area {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 0;
+    margin: 0;
 }
 
 
@@ -222,7 +198,7 @@ h5 {
 
 
 #lake-district:hover {
-    content: url(images/lake\ district2.jpg);
+    content: url(images/lake-district2.jpg);
 }
 
 
